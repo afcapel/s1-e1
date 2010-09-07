@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Book:</b>
+  <%= @catalogation.book_id %>
+</p>
+
+<p>
+  <b>Library:</b>
+  <%= @catalogation.library_id %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @catalogation.rating %>
+</p>
+
+
+<%= link_to 'Edit', edit_catalogation_path(@catalogation) %> |
+<%= link_to 'Back', catalogations_path %>

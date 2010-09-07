@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+war_and_peace:
+  title: War and Peace 
+  author: Leon Tolstoi
+
+tristam_shandy:
+  title: "The Life and Opinions of Tristram Shandy, Gentleman"
+  author: Laurence Sterne

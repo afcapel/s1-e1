@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  <%= @library.name %>
+</h1>
+
+<h3>Books</h3>
+<ul id="books">
+	<% @library.books.each do |book| %>
+	<li><%=link_to book.title, book %></li>
+	<% end %>
+</ul>
+
+<%= button_to "Update library from Google", :action => 'update_feed', :method => 'post', :id => @library.id %>

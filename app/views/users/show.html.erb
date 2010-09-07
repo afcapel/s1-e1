@@ -1,0 +1,21 @@
+<h1><%= current_user.email %> profile</h1>
+
+<h3>Twitter account</h3>
+<% unless current_user.authenticated_with_twitter? %>
+  <%= button_to "Authenticate with Twitter", :controller => 'twitter_sessions', :action => 'new' %>
+<% else %>
+	<p>Already authenticated with Twitter</p>
+<% end %>
+
+<h3>Libraries</h3>
+<% unless current_user.libraries.empty? %>
+  <ul>
+    <% current_user.libraries.each do |library| %>
+      <li><%= link_to library.name, library %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>There are no libraries yet. <%= link_to "Add your library", new_library_path %></p>
+<% end %>
+
+<p> <%= link_to "Add another library", new_library_path %> </p>

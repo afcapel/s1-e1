@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) || "Untitled" %></title>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag :defaults %>
+    <%= csrf_meta_tag %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+	
+    <div id="container">
+		<div id="header">
+			<% if user_signed_in? %>
+				<%= link_to "Visit your profile", profile_path %> | <%= link_to "Sign out" , destroy_user_session_path %>
+			<% else %>
+				<%= link_to "login" , new_user_session_path %> or <%= link_to "register" , new_user_registration_path %>
+			<% end %> 
+		</div>
+	 <div id="notice">
+      <% flash.each do |name, msg| %>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <% end %>
+	  </div>
+      <%= content_tag :h1, yield(:title) if show_title? %>
+      <%= yield %>
+    </div>
+  </body>
+</html>

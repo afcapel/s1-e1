@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @book.author %>
+</p>
+
+<p>
+  <b>ISBN:</b>
+  <%= @book.isbn %>
+</p>
+
+<% if current_user.authenticated_with_twitter? %>
+	<%= button_to "Tweet I'm reading it", :controller => 'tweets', :action =>'reading', :id => @book.id %>
+	<%= button_to "Tweet I like it", :controller => 'tweets', :action =>'like', :id => @book.id %>
+<% else %>
+	<p>
+	  You need to <%= link_to "authenticate with twitter", :controller => 'twitter_sessions', :action => 'new' -%> in order to tweet about this book.
+	</p>
+<% end %>
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>

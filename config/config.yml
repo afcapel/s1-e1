@@ -1,0 +1,13 @@
+development:
+   token: APPLICATION TOKEN
+   secret: APPLICATION SECRET
+   oauth_callback: http://127.0.0.1:3000/oauth_callback
+
+test:
+   token: 
+   secret:
+
+
+production:
+   token: 
+   secret:

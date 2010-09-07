@@ -1,0 +1,2 @@
+module CatalogationsHelper
+end

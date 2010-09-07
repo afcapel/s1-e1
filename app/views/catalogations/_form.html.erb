@@ -1,0 +1,29 @@
+<%= form_for(@catalogation) do |f| %>
+  <% if @catalogation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@catalogation.errors.count, "error") %> prohibited this catalogation from being saved:</h2>
+
+      <ul>
+      <% @catalogation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :book_id %><br />
+    <%= f.text_field :book_id %>
+  </div>
+  <div class="field">
+    <%= f.label :library_id %><br />
+    <%= f.text_field :library_id %>
+  </div>
+  <div class="field">
+    <%= f.label :rating %><br />
+    <%= f.text_field :rating %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

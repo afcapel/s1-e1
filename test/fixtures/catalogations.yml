@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  book: war_and_peace
+  library: favourites
+  rating: 10
+
+two:
+  book: tristam_shandy
+  library: favourites
+  rating: 10

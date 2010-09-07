@@ -1,0 +1,27 @@
+<h1>Listing catalogations</h1>
+
+<table>
+  <tr>
+    <th>Book</th>
+    <th>Library</th>
+    <th>Rating</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @catalogations.each do |catalogation| %>
+  <tr>
+    <td><%= catalogation.book_id %></td>
+    <td><%= catalogation.library_id %></td>
+    <td><%= catalogation.rating %></td>
+    <td><%= link_to 'Show', catalogation %></td>
+    <td><%= link_to 'Edit', edit_catalogation_path(catalogation) %></td>
+    <td><%= link_to 'Destroy', catalogation, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Catalogation', new_catalogation_path %>

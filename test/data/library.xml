@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gbs='http://schemas.google.com/books/2008'
+xmlns:dc='http://purl.org/dc/terms' xmlns:batch='http://schemas.google.com/gdata/batch'
+xmlns:gd='http://schemas.google.com/g/2005'>
+
+<id>http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes</id>
+
+<updated>2010-09-04T20:58:23.000Z</updated>
+
+<category
+scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/books/2008#volume'/>
+
+<category
+scheme='http://schemas.google.com/books/2008/collections#type_id' term='0'/>
+
+<title type='text'>Favorites</title>
+
+<link
+rel='alternate' type='text/html' href='http://books.google.com/books?uid=7729440292621307525&amp;as_coll=0&amp;ie=ISO-8859-1'/>
+
+<link
+rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes'/>
+
+<link
+rel='http://schemas.google.com/g/2005#post' type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes'/>
+
+<link rel='self'
+type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes'/>
+
+<author><name>afcapel</name></author>
+
+<generator
+version='beta'>Google Book Search data API</generator>
+
+<openSearch:totalResults>2</openSearch:totalResults>
+<openSearch:startIndex>1</openSearch:startIndex>
+<openSearch:itemsPerPage>2</openSearch:itemsPerPage>
+
+<entry>
+	<id>http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes/ejpuSgAACAAJ</id>
+	<published>1970-01-01T00:00:00.000Z</published>
+	<updated>2010-09-05T09:56:48.000Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/books/2008#volume'/>
+	<title type='text'>El libro de las ilusiones</title>
+	<link rel='http://schemas.google.com/books/2008/thumbnail' type='image/x-unknown' href='http://bks5.books.google.com/books?id=ejpuSgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=ACfU3U3Qi7PB1WplBk1nAmVo0MUIpT7pxQ&amp;source=gbs_gdata'/>
+<link rel='http://schemas.google.com/books/2008/info' type='text/html' href='http://books.google.com/books?id=ejpuSgAACAAJ&amp;ie=ISO-8859-1&amp;source=gbs_gdata'/>
+
+<link
+rel='http://schemas.google.com/books/2008/preview' type='text/html'
+href='http://books.google.com/books?id=ejpuSgAACAAJ&amp;ie=ISO-8859-1&amp;source=gbs_gdata'/>
+
+<link
+rel='http://schemas.google.com/books/2008/annotation' type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/me/volumes'/>
+
+<link
+rel='http://schemas.google.com/books/2008/acsepubfulfillmenttoken' type='application/vnd.adobe.adept+xml'
+href='http://books.google.com/books/download/El_libro_de_las_ilusiones.acsm?id=ejpuSgAACAAJ&amp;format=epub&amp;output=acs4_fulfillment_token'/>
+
+<link
+rel='alternate' type='text/html' href='http://books.google.com/books?id=ejpuSgAACAAJ&amp;ie=ISO-8859-1'/>
+
+<link rel='self'
+type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes/ejpuSgAACAAJ'/>
+
+<link
+rel='edit' type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes/ejpuSgAACAAJ'/>
+
+<gbs:embeddability value='http://schemas.google.com/books/2008#not_embeddable'/>
+<gbs:openAccess value='http://schemas.google.com/books/2008#disabled'/>
+<gbs:viewability value='http://schemas.google.com/books/2008#view_no_pages'/>
+
+<dc:creator>Paul Auster</dc:creator>
+<dc:date>2006-05-15</dc:date>
+<dc:description>Vermont professor David Zimmer has become an alcoholic recluse after his wife and sons are killed in an airplane crash, but one night, while watching a television documentary,
+Zimmer&amp;#39;sattention is caught by the silent-film comedian Hector Mann, who ...</dc:description>
+<dc:format>338 pages</dc:format>
+<dc:format>book</dc:format>
+<dc:identifier>ejpuSgAACAAJ</dc:identifier>
+<dc:identifier>ISBN:8433968122</dc:identifier>
+<dc:identifier>ISBN:9788433968128</dc:identifier>
+<dc:publisher>Editorial Anagrama</dc:publisher>
+<dc:subject>Fiction</dc:subject>
+<dc:title>El libro de las ilusiones</dc:title>
+</entry>
+
+<entry>
+	<id>http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes/FufBAAAACAAJ</id>
+	<published>1970-01-01T00:00:00.000Z</published
+		><updated>2010-09-05T09:56:48.000Z</updated>
+		<category
+scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/books/2008#volume'/>
+<title type='text'>La insoportable levedad del ser</title>
+<link rel='http://schemas.google.com/books/2008/thumbnail' type='image/x-unknown'
+href='http://bks6.books.google.com/books?id=FufBAAAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=ACfU3U1s2WdiOq8eQx_50wgmVafXPlMqEQ&amp;source=gbs_gdata'/>
+<link
+rel='http://schemas.google.com/books/2008/info' type='text/html'
+href='http://books.google.com/books?id=FufBAAAACAAJ&amp;ie=ISO-8859-1&amp;source=gbs_gdata'/>
+
+<link
+rel='http://schemas.google.com/books/2008/preview' type='text/html'
+href='http://books.google.com/books?id=FufBAAAACAAJ&amp;ie=ISO-8859-1&amp;source=gbs_gdata'/>
+
+<link
+rel='http://schemas.google.com/books/2008/annotation' type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/me/volumes'/>
+
+<link
+rel='http://schemas.google.com/books/2008/acsepubfulfillmenttoken' type='application/vnd.adobe.adept+xml'
+href='http://books.google.com/books/download/La_insoportable_levedad_del_ser.acsm?id=FufBAAAACAAJ&amp;format=epub&amp;output=acs4_fulfillment_token'/>
+
+<link rel='alternate' type='text/html' href='http://books.google.com/books?id=FufBAAAACAAJ&amp;ie=ISO-8859-1'/>
+
+<link rel='self' type='application/atom+xml' href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes/FufBAAAACAAJ'/>
+
+<link
+rel='edit' type='application/atom+xml'
+href='http://www.google.com/books/feeds/users/7729440292621307525/collections/library/volumes/FufBAAAACAAJ'/>
+
+<gbs:embeddability value='http://schemas.google.com/books/2008#not_embeddable'/>
+<gbs:openAccess value='http://schemas.google.com/books/2008#disabled'/>
+<gbs:viewability value='http://schemas.google.com/books/2008#view_no_pages'/>
+<dc:creator>Milan Kundera</dc:creator>
+<dc:date>2004-01</dc:date>
+<dc:description>En efecto, los celos de Teresa por Tomas, el terco amor de este por ella opuesto a su irrefrenable deseo de otras mujeres, el idealismo lirico y cursi de Franz, amante de Sabina, y lanecesidad de esta, amante tambien de Tomas, de perseguir ...</dc:description>
+<dc:format>320 pages</dc:format>
+<dc:format>book</dc:format>
+<dc:identifier>FufBAAAACAAJ</dc:identifier>
+<dc:identifier>ISBN:9509779660</dc:identifier>
+<dc:identifier>ISBN:9789509779662</dc:identifier>
+<dc:publisher>TusQuets</dc:publisher>
+<dc:subject>Fiction</dc:subject>
+<dc:title>La insoportable levedad del ser</dc:title>
+</entry>
+</feed>
