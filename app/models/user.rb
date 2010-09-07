@@ -12,4 +12,12 @@ class User < ActiveRecord::Base
   def authenticated_with_twitter?
     oauth_token.present? && oauth_secret.present?
   end
+  
+  def tweet(message)    
+    oauth = Twitter::OAuth.new(APP_CONFIG['token'], APP_CONFIG['secret'])
+    oauth.authorize_from_access(self.oauth_token, self.oauth_secret)
+
+    client = Twitter::Base.new(oauth)
+    client.update(message)
+  end
 end

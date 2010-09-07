@@ -8,6 +8,9 @@ class Library < ActiveRecord::Base
   def parse_feed
     @xml = Nokogiri::XML(open(self.url))
     entries = @xml.xpath('//xmlns:entry', 'xmlns' => 'http://www.w3.org/2005/Atom')
+    
+    self.name = @xml.at_xpath("//xmlns:title", 'xmlns' => 'http://www.w3.org/2005/Atom').text
+    
     entries.each do |entry|
       book = parse_entry(entry)
       self.books << book unless self.books.include? book

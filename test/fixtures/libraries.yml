@@ -3,3 +3,4 @@
 favourites:
   name: Favourites
   url: test/data/library.xml
+  user: paco

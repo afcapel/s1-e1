@@ -2,6 +2,8 @@
 log/*.log
 tmp/**/*
 tmp/*
+config/config.yml
+config/database.yml
 db/*.sqlite3
 rerun.txt
 config/deploy.rb
