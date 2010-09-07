@@ -8,6 +8,6 @@ class Catalogation < ActiveRecord::Base
   
   def tweet_book
     user = self.library.user
-    user.tweet "#{book.title} added to librabry #{library.name}" if user.authenticated_with_twitter?
+    user.tweet "#{book.title} added to library #{library.name}" if user.authenticated_with_twitter?
   end
 end
